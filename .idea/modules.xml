@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DataStructureAndAlgo.iml" filepath="$PROJECT_DIR$/.idea/DataStructureAndAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EPI/EPI.iml" filepath="$PROJECT_DIR$/EPI/EPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
     </modules>
   </component>
