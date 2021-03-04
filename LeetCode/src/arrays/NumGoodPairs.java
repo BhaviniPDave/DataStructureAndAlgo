@@ -27,4 +27,6 @@ public class NumGoodPairs {
         int[] input  = {1,2,3,1,1,3};
         System.out.println(numIdenticalPairs(input));
     }
+
+
 }
