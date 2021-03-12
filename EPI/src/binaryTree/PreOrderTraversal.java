@@ -25,5 +25,7 @@ public class PreOrderTraversal {
         BinaryTreeNode I = new BinaryTreeNode('I',J,O);
         BinaryTreeNode A = new BinaryTreeNode('A',B,I);
 
+        preOrderTraversalRecursion(A);
+
     }
 }
