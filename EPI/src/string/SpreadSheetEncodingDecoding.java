@@ -18,7 +18,6 @@ public class SpreadSheetEncodingDecoding {
             int index = (x-1) % 26;
             sb.append((char)(index + 'A'));
             x= (x-1)/26;
-
         }
         return sb.reverse().toString();
     }
