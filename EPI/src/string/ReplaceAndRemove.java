@@ -9,7 +9,7 @@ public class ReplaceAndRemove {
         char[] ch = {'a','c','d','b','b','c','a'};
         System.out.println(replaceAndRemove(7,ch));
     }
-    public static int replaceAndRemove(int size, char[] s) {
+    public static char[] replaceAndRemove(int size, char[] s) {
         //Forward iteration: remove b's and count the number of a's
         int writeIndex = 0;
         int aCount = 0;
@@ -33,6 +33,6 @@ public class ReplaceAndRemove {
             }
             --curIdx;
         }
-        return finalSize;
+        return s;
     }
 }
