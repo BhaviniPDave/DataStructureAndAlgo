@@ -1,5 +1,11 @@
 package string;
 
+/**
+ * "Hello World!"
+ *    e             " "             l
+ * H    l       o       W       r       d
+ *          l               o               !
+ */
 public class SnakeString {
     public static void main (String [] args) {
         System.out.println(snakeString("Hello World!"));
