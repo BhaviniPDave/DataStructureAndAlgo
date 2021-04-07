@@ -14,7 +14,7 @@ public class IsListCyclic {
         System.out.println(cycleStartNode.data);
     }
     public static SingleListNode<Integer> hasCycle(SingleListNode<Integer> head) {
-        SingleListNode<Integer> fast =head, slow = head;
+         SingleListNode<Integer> fast =head, slow = head;
         while (fast != null && fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
