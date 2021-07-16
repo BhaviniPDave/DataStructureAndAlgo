@@ -56,7 +56,7 @@ public class MinDifferenceG {
 
     public static void main(String[] args) {
         MinDifferenceG obj = new MinDifferenceG();
-        int[] arr = {1,5,6,14,15};
+        int[] arr = {6,6,0,1,1,4,6};
         System.out.println(obj.minDifference(arr));
     }
 }
