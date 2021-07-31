@@ -1,4 +1,4 @@
-package strings;
+package strings.GuessTheWord;
 
 /**
  * 843. Guess the Word
@@ -37,15 +37,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * // This is the Master's API interface.
- * // You should not implement it, or speculate about its implementation
- *  */
-interface Master {
-      int guess(String word);
-}
-
-class Solution {
+class GuessTheWord {
     public void findSecretWord(String[] wordlist, Master master) {
         int m = wordlist[0].length();
         int maxAttempt = 10;
@@ -98,5 +90,12 @@ class Solution {
             }
         }
         return match;
+    }
+
+    public static void main (String[] args) {
+        GuessTheWord obj = new GuessTheWord();
+        MasterImpl master = new MasterImpl();
+        String[] words = {"acckzz","ccbazz","eiowzz","abcczz"};
+        obj.findSecretWord(words, master);
     }
 }
